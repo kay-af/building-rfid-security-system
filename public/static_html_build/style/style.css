@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    font-size: small;
+    margin: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 32px 16px;
+    border: 1px solid #2224;
+    background-color: #fffb;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 400px;
+    max-width: 480px;
+    width: 10%;
+    box-shadow: 4px 4px 8px #2222;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.container h1, h2, h3, h4 {
+    font-weight: 300;
+    margin: 2px;
+}
+
+.container input {
+    margin-top: 16px;
+}
+
+.container input[type="text"], .container input[type="number"] {
+    border-radius: 4px;
+    border: 1px solid #2228;
+    background-color: white;
+    padding: 8px;
+    outline: none;
+    width: 240px;
+    transition: 0.3s;
+}
+
+.container input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.container input[type="text"]:hover, .container input[type="number"]:hover {
+    background-color: #f8f8f8;
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin: 0;
+        border: none;
+        width: 100%;
+        box-shadow: none;
+        background-color: #eee;
+    }
+}
+
+#disabled-section {
+    margin: 16px 0px 0px 0px;
+}
+
+#disabled-section textarea {
+    margin-top: 16px;
+    outline: none;
+    border: 1px solid #2228;
+    resize: none;
+    border-radius: 4px;
+    width: 340px;
+    box-sizing: border-box;
+    padding: 8px;
+    transition: 0.4s;
+}
+
+#disabled-section textarea:hover {
+    background-color: #f8f8f8;
+}
+
+.container button {
+    margin-top: 16px;
+    padding: 16px 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.container button:hover {
+    background-color: violet;
+    box-shadow: 0px -4px #0003 inset;
+    transform: scale(1.04);
+}
+
+.container button:active {
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px #0003 inset;
+    transform: scale(1);
+}
+
+.container button i {
+    margin-left: 10px;
+}
