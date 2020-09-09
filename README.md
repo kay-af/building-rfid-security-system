@@ -1,17 +1,5 @@
-<style>
-    .center {
-        text-align: center;
-    }
-
-    .rounded {
-        border-radius: 8px;
-    }
-</style>
-
-<h1 class="center">Building RFID Security System</h1>
-<div class="center">
-    <img src="./preview-assets/screen.png" width="640px" class="rounded">
-</div>
+# Building RFID Security System
+<img src="./preview-assets/screen.png" width="640px" class="rounded">
 
 ## Motivation
 
